@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.summary      = "iOS library for Estimote iBeacon devices"
   s.homepage     = "http://estimote.com"
   s.author       = { "Estimote, Inc" => "contact@estimote.com" }
-  s.platform     = :ios 
+  s.platform     = :ios
   s.source       = { :git => "https://github.com/Estimote/iOS-SDK.git", :tag => "v#{s.version}" }
   s.source_files =  'EstimoteSDK/Headers/*.h'
   s.preserve_paths = 'EstimoteSDK/libEstimoteSDK.a'
