@@ -12,8 +12,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '7.0'
   s.frameworks = 'UIKit', 'Foundation', 'SystemConfiguration', 'MobileCoreServices', 'CoreLocation'
   s.requires_arc = true
-  s.xcconfig  =  { 'LIBRARY_SEARCH_PATHS' => '$(inherited) "$(PODS_ROOT)/EstimoteSDK"',
-                   'HEADER_SEARCH_PATHS' => '$(inherited) "${PODS_ROOT}/Headers/EstimoteSDK"' }
   s.license      = {
     :type => 'Copyright',
     :text => <<-LICENSE
